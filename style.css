@@ -1,0 +1,145 @@
+html {
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+}
+
+.banner {
+    background-image: url("./resources/glasses-bg.png");
+    background-size: cover;
+    height: 31rem;
+    border: 1px solid white;
+}
+
+.fullwith-container {
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.centered-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    background-color: cadetblue;
+    color: white;
+    margin-top: 1rem;
+}
+
+.navbar img {
+    height: 1.5rem; 
+    margin: 0 1rem 0 2rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    /* border: 1px solid red; */
+}
+
+nav span {
+    display: inline-block;
+    padding: 1rem 2rem 1rem 0;
+}
+
+.claim-container {
+    display: flex;
+}
+
+.placeholder {
+    flex-grow: 1;
+}
+
+.claim {
+    background-color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-top: 10rem;
+    position: relative;
+    right: -2rem;
+}
+
+.claim span {
+    display: inline-block;
+    padding: 1.5rem 5rem 1.5rem 5rem;
+    color: gray;
+}
+
+.centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.offerings {
+    display: flex;
+    justify-content: center;
+    /* border: 3px solid greenyellow; */
+}
+
+.offering {
+    width: 8rem;
+    height: 6rem;
+    text-align: center;
+    margin: 3rem 1.5rem 0 1.5rem;
+    /* border: 2px solid red; */
+}
+
+.offerings p {
+    width: 8rem;
+    text-align: center;
+    margin: 0 1.5rem 0 1.5rem;
+    /* border: 2px solid red; */
+}
+
+.offering.paper img {
+    width: 3.5rem;
+}
+
+.offering.ruler img, .offering.truck img {
+    width: 5rem;
+}
+
+.content-fullwith {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.content-box {
+    width: 35%;
+    height: 8rem;
+    margin: 3rem 0 5rem 0;
+    /* border: 2px solid green; */
+}
+
+.placeholder-box {
+    width: 5%;
+}
+
+.content-box p.title {
+    width: 10rem;
+    padding: 0.5rem 0 0.5rem 1.25rem;
+    background-color: cadetblue;
+    color: white;
+}
+
+.content-box p.text {
+    margin: 1rem 0 5rem 0;
+}
+
+footer .centered-container {
+    display: flex;
+    align-items: center;
+    height: 9.5rem;
+    color: black;
+    background-color: azure;
+}
+
+footer img {
+    height: 1.5rem;
+    margin: 4rem 1rem 4rem 4rem;
+}
